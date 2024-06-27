@@ -1,19 +1,3 @@
-// import { Component, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
-
-// @Component({
-//     selector: 'app-swiper',
-//     standalone: true,
-//     imports: [],
-//     templateUrl: './swiper.component.html',
-//     styleUrl: './swiper.component.less',
-//     schemas: [CUSTOM_ELEMENTS_SCHEMA]
-// })
-// export class SwiperComponent {
-// }
-
-// 
-
-
 import { CommonModule } from '@angular/common';
 import {
     Component,
