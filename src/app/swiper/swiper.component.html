@@ -1,0 +1,15 @@
+<div>
+  <swiper-container #swiper1 style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="mySwiper"
+    thumbs-swiper=".mySwiper2" navigation="true" init="false">
+    <swiper-slide *ngFor="let slide of slides">
+      <img [src]="slide.image" />
+    </swiper-slide>
+  </swiper-container>
+
+  <swiper-container #swiper2 class="mySwiper2" space-between="10" slides-per-view="6" free-mode="true"
+    watch-slides-progress="true" init="false">
+    <swiper-slide *ngFor="let slide of slides">
+      <img [src]="slide.image" />
+    </swiper-slide>
+  </swiper-container>
+</div>

@@ -1,0 +1,38 @@
+swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+
+    img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.mySwiper {
+    height: 600px;
+    width: 100%;
+}
+
+.mySwiper2 {
+    // defines height and width of thumbs swiper
+    height: 100px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 0;
+
+    swiper-slide {
+        opacity: 0.6; // this set default opacity to all slides
+    }
+
+    .swiper-slide-thumb-active {
+        opacity: 1; // this reset the opacity one for the active slide
+    }
+}
